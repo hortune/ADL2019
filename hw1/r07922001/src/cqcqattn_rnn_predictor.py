@@ -2,7 +2,6 @@ import torch
 from base_predictor import BasePredictor
 from modules import CQCQAttnRNNNet
 import torch.nn as nn
-from IPython import embed
 
 class CQCQAttnRNNPredictor(BasePredictor):
     """

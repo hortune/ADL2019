@@ -1,6 +1,5 @@
 import re
 import torch
-import fastText
 
 class Embedding:
     """
