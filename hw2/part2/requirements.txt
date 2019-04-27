@@ -1,7 +1,0 @@
-pytorch==1.0
-spacy>=2.0
-pyyaml
-python-box
-tqdm
-ipdb
-pytorch-pretrained-bert==0.6.1
