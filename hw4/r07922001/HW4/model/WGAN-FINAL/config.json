@@ -1,0 +1,23 @@
+{
+    "mode_name": "WGAN-GP",
+    "adv_loss": "WGAN",
+    "cond_loss": "ACGAN",
+    "lr_g": 0.0002,
+    "lr_d": 0.0002,
+    "noise_dim": 128,
+    "feature_dim": 15,
+    "batch_size": 4,
+    "epoch": 1000,
+    "seed": 1126,
+    "restrict": "GP",
+    "clamp_rate": 0.01,
+    "g_update_freq": 1,
+    "gp_coef": 10,
+    "d_iters": 1,
+    "g_iters": 1,
+    "hidden_dim": 64,
+    "dev_num": 0,
+    "select_iteration": 190000,
+    "test_batch_size": 128,
+    "fake_loss": false
+}
